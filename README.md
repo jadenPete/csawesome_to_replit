@@ -14,6 +14,10 @@ Because the code editor in CSAwesome isn't very feature-rich, this project arose
 	* Arch Linux: `# pacman -S firefox geckodriver`
 	* Ubuntu: `# apt install firefox firefox-geckodriver`
 2. Create `login.txt` and copy the contents of the `connect.sid` cookie from Repl.it into it:
+3. Enter a virtual environment:
+	```
+	$ poetry shell
+	```
 3. Run `./main.py` with the URL of a CSAwesome lesson; e.g.:
 	```
 	$ ./main.py 'https://csawesome.runestone.academy/runestone/books/published/csawesome/Unit1-Getting-Started/topic-1-2-java-intro.html'
